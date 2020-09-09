@@ -5,7 +5,7 @@
     </head>
     <body>
         <div id="app">
-            <input v-model="nm" type="number">nm
+            <input v-model="nm" type="number" min=380 max=779>nm
             <color-sample v-bind:color="colorsample.color"></color-sample>
         </div>
         <script>
